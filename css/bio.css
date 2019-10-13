@@ -27,7 +27,8 @@
     transform: scale(1.2) rotate(5deg);
 }
 
-.citacao-bio:nth-of-type(even):hover,
+.cit
+acao-bio:nth-of-type(even):hover,
 .citacao-bio:nth-of-type(even):focus {
     transform: scale(1.2) rotate(-5deg);
 }
@@ -51,4 +52,17 @@
 
 .citacao-bio > p {
     position: relative;
+}
+
+table {
+    border-collapse: separate;
+}
+
+th {
+    background-color: red;
+    border: 5px solid black;
+}
+
+td {
+    border: 1px solid black;
 }
