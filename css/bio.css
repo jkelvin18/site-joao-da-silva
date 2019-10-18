@@ -56,13 +56,42 @@ acao-bio:nth-of-type(even):hover,
 
 table {
     border-collapse: separate;
+    border-spacing: 5px;
 }
 
-th {
-    background-color: red;
-    border: 5px solid black;
+.habilidades th {
+    font-weight: bold;
+    background-color: #851944;
+    color: white;
 }
 
-td {
-    border: 1px solid black;
+.habilidades thead th {
+    background-color: #3C1D3D;
+}
+
+.habilidades td {
+    background-color: #eee;
+}
+
+.habilidades th,
+.habilidades td {
+    padding: 1em;
+}
+
+.habilidades {
+    border-collapse: separate;
+    border-spacing: .25em;
+}
+
+.habilidades {
+    margin: 1em 0;
+}
+
+.habilidades [colspan] {
+    text-align: center;
+    font-style: italic;
+}
+
+.habilidades [rowspan] {
+    vertical-align: middle;
 }
